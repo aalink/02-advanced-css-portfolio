@@ -1,0 +1,92 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: rgb(77, 77, 77);
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    background-color: rgb(34, 66, 83);
+    padding-left: 30px;
+}
+
+/* header h1 {
+    background-color: aqua;
+    padding: 15px;
+} */
+
+/* header h1 {
+    justify-content: right;
+} */
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    background-color:grey
+}
+
+/* ul {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+/* ul li {
+    padding: 10px;
+} */
+
+/* .imgheader {
+    display: block;
+    background-image: url("../images/nightSky.JPG");
+} */
+
+p {
+    padding: 50px;
+    font-size: large;
+}
+
+nav a {
+    padding: 10px;
+    padding-left: 50px;
+    font-size: x-large;
+    background-color: rgb(60, 94, 97);
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+section {
+    display: flex;
+    background-color: grey;
+}
+
+aside {
+    background-color: lightgreen;
+    margin: 20px;
+}
+
+aside ul a {
+    /* padding: 40px; */
+    text-decoration: none;
+    font-size: x-large;
+    background-color: black;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    background-color: darkblue;
+    margin: 20px;
+    border: solid;
+}
+
+/* main img {
+
+} */
