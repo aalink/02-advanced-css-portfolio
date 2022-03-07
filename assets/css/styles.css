@@ -7,11 +7,20 @@ body {
     background-color: rgb(77, 77, 77);
 }
 
+/* li {
+    display:inline;
+} */
+
+section {
+    display: flex;
+    background-color: grey;
+}
+
 header {
     display: flex;
-    justify-content: left;
     background-color: rgb(34, 66, 83);
     padding-left: 30px;
+    padding-right: 30px;
 }
 
 /* header h1 {
@@ -25,9 +34,25 @@ header {
 
 nav {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: right;
-    background-color:grey
+    /* flex-wrap: wrap; */
+    /* justify-content: right; */
+    background-color:grey;
+    
+}
+
+/* nav ul {
+
+} */
+
+a {
+    font-size: x-large;
+    background-color: rgb(60, 94, 97);
+    text-decoration: none;
+    padding: 20px;
+}
+
+a:hover {
+    background-color: rgb(40, 40, 40);
 }
 
 /* ul {
@@ -44,49 +69,43 @@ nav {
     background-image: url("../images/nightSky.JPG");
 } */
 
-p {
+/* p {
     padding: 50px;
     font-size: large;
-}
+} */
 
-nav a {
-    padding: 10px;
-    padding-left: 50px;
-    font-size: x-large;
-    background-color: rgb(60, 94, 97);
-    text-decoration: none;
-}
 
-a:hover {
-    background-color: rgb(40, 40, 40);
-}
 
-section {
-    display: flex;
-    background-color: grey;
-}
 
 aside {
-    background-color: lightgreen;
-    margin: 20px;
+    background-color: rgb(89, 112, 89);
 }
 
-aside ul a {
-    /* padding: 40px; */
-    text-decoration: none;
-    font-size: x-large;
-    background-color: black;
+aside ul {
+    padding: 0px;
 }
+
+aside ul li {
+    list-style-type: none;
+    padding: 15px 30px 15px 30px;
+}
+
 
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: right;
-    background-color: darkblue;
-    margin: 20px;
-    border: solid;
+    /* justify-content: center; */
+    background-color: rgb(86, 86, 94);
+    /* margin: 20px; */
+    /* border: solid; */
 }
 
-/* main img {
+img {
+    margin: 10px;
+    border: 5px;
+    border-style:inset;
+}
 
+/* @media screen {
+    
 } */
