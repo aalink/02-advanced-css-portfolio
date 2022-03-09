@@ -3,62 +3,59 @@
     color: white;
 }
 
-body {
-    background-color: rgb(77, 77, 77);
-    width: 1600px;
-    margin: auto;
+:root {
+    --myGrey: grey
 }
 
-/* li {
-    display:inline;
-} */
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--myGrey);
+}
 
-section header nav {
-    display: inline;
+
+
+section {
+    display: flex;
     background-color: grey;
     
 }
 
+
+
 header {
     background-image: url(/assets/images/pattern-for-website.png);
-    display: flex;
     background-color: rgb(43, 43, 43);
     padding-left: 30px;
     padding-right: 30px;
+    text-align: center;
+    text-shadow: 2px 2px black;
 }
 
-
-header h1 {
-    padding: 15px;
-    /* margin: auto; */
-    display: contents;
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
 }
 
-.backgroundpattern {
-    /* background:
-    linear-gradient(63deg, #999 23%, transparent 23%) 7px 0,
-    linear-gradient(63deg, transparent 74%, #999 78%),
-    linear-gradient(63deg, transparent 34%, #999 38%, #999 58%, transparent 62%),
-    #444;
-    background-size: 16px 48px; */
+h3 {
+    display: flex;
+    justify-content: center;
+    margin: 0%;
 }
 
-/* header h1 {
-    justify-content: right;
-} */
 
 nav {
     display: flex;
+    justify-content: center;
     /* flex-wrap: wrap; */
     /* justify-content: right; */
     background-color:grey;
-    background-image: url(/assets/images/pattern-for-website.png);
+    /* background-image: url(/assets/images/pattern-for-website.png); */
     
 }
 
-/* nav ul {
-
-} */
 
 a {
     font-size: x-large;
@@ -70,28 +67,6 @@ a {
 a:hover {
     background-color: rgb(40, 40, 40);
 }
-
-/* ul {
-    display: flex;
-    flex-wrap: wrap;
-} */
-
-/* ul li {
-    padding: 10px;
-} */
-
-/* .imgheader {
-    display: block;
-    background-image: url("../images/nightSky.JPG");
-} */
-
-/* p {
-    padding: 50px;
-    font-size: large;
-} */
-
-
-
 
 aside {
     background-color: rgb(45, 45, 45);
