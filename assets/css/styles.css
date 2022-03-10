@@ -39,6 +39,10 @@ section {
     
 }
 
+article {
+    padding: 20px;
+}
+
 #rcorners1 {
     padding: 20px;
     width: 200px;
@@ -46,8 +50,8 @@ section {
   }
 
 header {
-    background-image: url(/assets/images/nightSkyFull.JPG);
-    background-repeat: no-repeat;
+    /* background-image: url(/assets/images/nightSkyFull.JPG);
+    background-repeat: no-repeat; */
     text-align: center;
     text-shadow: 2px 2px black;
 }
@@ -80,15 +84,19 @@ a {
     text-align: center;
     white-space: nowrap;
     padding: 20px;
+    margin: 1.5px;
     border-radius: 10px;
+    background: var(--mediumdarkblue);
+    box-shadow: 10px 5px 5px black;
 
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(60,60,113,1) 35%, rgba(80,127,136,1) 100%);
+    /* background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(60,60,113,1) 35%, rgba(80,127,136,1) 100%); */
 }
 
 a:hover {
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(60,102,113,1) 35%, rgba(80,136,115,1) 100%); 
+    background: var(--mediumlightblue);
+    /* background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(60,102,113,1) 35%, rgba(80,136,115,1) 100%);  */
 }
 
 aside {
@@ -116,6 +124,11 @@ img {
     border: 5px;
     max-width: 50%;
     border-radius: 15px;
+}
+
+.card:hover {
+    transform: scale(1.05
+    );
 }
 
 /* @media screen and (max-width: 620px) {
