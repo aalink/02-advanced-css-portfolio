@@ -9,12 +9,14 @@
 
 body {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     background-color: var(--myGrey);
 }
 
-
+.thisone {
+    display: flex;
+}
 
 section {
     display: flex;
@@ -22,13 +24,9 @@ section {
     
 }
 
-
-
 header {
-    background-image: url(/assets/images/pattern-for-website.png);
-    background-color: rgb(43, 43, 43);
-    padding-left: 30px;
-    padding-right: 30px;
+    background-image: url(/assets/images/nightSkyFull.JPG);
+    background-repeat: no-repeat;
     text-align: center;
     text-shadow: 2px 2px black;
 }
@@ -43,29 +41,32 @@ h3 {
     display: flex;
     justify-content: center;
     margin: 0%;
+    
 }
 
 
 nav {
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
-    /* justify-content: right; */
     background-color:grey;
-    /* background-image: url(/assets/images/pattern-for-website.png); */
+    flex-wrap: wrap;
     
 }
 
 
 a {
-    font-size: x-large;
-    background-color: rgb(60, 94, 97);
+    font-size: large;
     text-decoration: none;
+    text-align: center;
+    white-space: nowrap;
     padding: 20px;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(60,60,113,1) 35%, rgba(80,127,136,1) 100%);
 }
 
 a:hover {
-    background-color: rgb(40, 40, 40);
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(60,102,113,1) 35%, rgba(80,136,115,1) 100%); 
 }
 
 aside {
@@ -95,14 +96,26 @@ main {
 img {
     margin: 10px;
     border: 5px;
-    border-style:inset;
+    /* border-style:inset; */
     max-width: 50%;
 }
 
-@media screen and (max-width: 620px) {
+/* @media screen and (max-width: 620px) {
     .card {
       display: flex;
       flex-wrap: wrap;
       width: 10%;
     }
+  } */
+
+  .single-nav li {
+    text-align: center;
+}
+
+/* Responsive Design - <nav> switches to column orientation at 600px */
+  @media screen and (max-width: 600px) {
+    .single-nav {
+        flex-direction:column;
+    }
+    
   }
