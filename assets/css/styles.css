@@ -3,15 +3,26 @@
     color: white;
 }
 
+.first-color { 
+}
 :root {
+    /* My colors */
+    /* ///////////////// */
+    /* BLUE */
+    --darkblue: #1b262c; 
+    --mediumdarkblue: #0f4c75; 
+    --mediumlightblue: #3282b8; 
+    --lightblue: #bbe1fa;
+    /* ///////////////// */
     --myGrey: grey
+
 }
 
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: var(--myGrey);
+    background-color: var(--darkblue);
 }
 
 .thisone {
@@ -20,9 +31,19 @@ body {
 
 section {
     display: flex;
-    background-color: grey;
+    background-color: var(--mediumdarkblue);
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow: 10px 5px 5px black;
+    margin: 20px;
     
 }
+
+#rcorners1 {
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+  }
 
 header {
     background-image: url(/assets/images/nightSkyFull.JPG);
@@ -48,7 +69,6 @@ h3 {
 nav {
     display: flex;
     justify-content: center;
-    background-color:grey;
     flex-wrap: wrap;
     
 }
@@ -60,6 +80,8 @@ a {
     text-align: center;
     white-space: nowrap;
     padding: 20px;
+    border-radius: 10px;
+
     background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(60,60,113,1) 35%, rgba(80,127,136,1) 100%);
 }
@@ -87,17 +109,13 @@ aside ul li {
 main {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
-    background-color: rgb(86, 86, 94);
-    /* margin: 20px; */
-    /* border: solid; */
 }
 
 img {
     margin: 10px;
     border: 5px;
-    /* border-style:inset; */
     max-width: 50%;
+    border-radius: 15px;
 }
 
 /* @media screen and (max-width: 620px) {
@@ -111,6 +129,8 @@ img {
   .single-nav li {
     text-align: center;
 }
+
+
 
 /* Responsive Design - <nav> switches to column orientation at 600px */
   @media screen and (max-width: 600px) {
