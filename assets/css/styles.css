@@ -77,8 +77,23 @@ nav {
     
 }
 
+ul li {
+    display: flex;
+    justify-content: center;
 
-a {
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0%;
+    /* list-style-type: none; */
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
     font-size: large;
     text-decoration: none;
     text-align: center;
@@ -93,7 +108,7 @@ a {
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(60,60,113,1) 35%, rgba(80,127,136,1) 100%); */
 }
 
-a:hover {
+li:hover {
     background: var(--mediumlightblue);
     /* background: rgb(2,0,36);
     background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(60,102,113,1) 35%, rgba(80,136,115,1) 100%);  */
