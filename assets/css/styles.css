@@ -87,7 +87,6 @@ figcaption {
 h1 {
     display: flex;
     justify-content: center;
-    /* margin: 5px; */
     color: white;
 }
 
@@ -104,10 +103,6 @@ h3 {
     color: white;
     
 }
-
-/* .noimage {
-    background-image: none;
-} */
 
 h4 {
     color: black;
