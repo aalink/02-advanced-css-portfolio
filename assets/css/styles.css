@@ -40,6 +40,7 @@ section {
     margin: 20px;
     border-style: double;
     border-color: black;
+    border-width: 10px;
     align-items: center;
 }
 
@@ -70,6 +71,9 @@ figure{
     display: flex;
     flex-direction: column;
     flex-basis: content;
+    border-style: double;
+    border-width: 5px;
+    border-color: black;
 }
 
 figcaption {
@@ -99,7 +103,7 @@ h1 {
 
 h2 {
     color: black;
-    font-size: 50px;
+    font-size: 35px;
 }
 
 h3 {
@@ -190,6 +194,9 @@ ol {
 /* ////////////////////////////// */
 /* ////////////////////////////// */
 
+.text-center {
+    text-align: center;
+}
 
 /* ////////////////////////////// */
 /* ////////////////////////////// */
@@ -242,6 +249,12 @@ img {
     border-radius: 15px;
 }
 
+footer {
+    text-align: center;
+    background-color: black;
+    font-size: larger;
+    padding: 20px;
+}
 
 
 .flex-column {
